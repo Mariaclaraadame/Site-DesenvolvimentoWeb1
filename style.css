@@ -1,0 +1,16 @@
+.header{
+	padding:0px;
+	text-align: center;
+	background: -webkit-gradient(linear, 80% 100%, 33% 100%, from(#190015), to(#140018));
+	color: white;
+	font-size:30px;
+	font-family: "Lobster", cursive;
+}
+.signo{
+	text-align: center;
+	height:50%;
+	width:50%;
+	margin:0 auto;
+	background: white;
+	font-family: Impact, Charcoal, sans-serif;
+}

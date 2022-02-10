@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset= "UTF-8">
+		<style>
+			body{
+				background: url("imagens/fundo.jpg") no-repeat fixed center;
+				background-size: 100%;
+			}
+			.h1{
+				padding:0px;
+				color: white;
+				font-size:40px;
+				font-family: "Lobster", cursive;
+			}
+			.p{
+				padding:0px;
+				color: white;
+				font-size:20px;
+				font-family: "Lobster", cursive;
+			}
+		</style>
+	</head>
+	<body>
+		<div class= "h1">
+			<h1>Signos</h1>
+		</div>
+		<div class= "p">
+			<p>Cada signo representa um espaço de atuação dos planetas. Portanto, o ideal é saber as qualidades básicas de todos os signos e descobrir, através do seu Mapa Astral, em quais deles cada planeta está localizado. A partir daí, a pessoa saberá de que maneira a simbologia dos seus planetas será expressa, baseada nas características daquele signo. Afinal, é ele que oferece uma base descritiva da identidade e do comportamento das pessoas.</p>
+			<p>Quer saber mais sobre o SEU signo? Selecione sua data e seu mês de nascimento, respectivamente.</p>
+		</div>
+		<form action= "signos2.php" method="post">
+			Dia:<input type="number" name="dia">
+			Mes:<input type="number" name="mes">
+			<input type="submit">
+		</form>
+	</body>
+</html>
